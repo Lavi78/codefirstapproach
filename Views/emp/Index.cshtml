@@ -1,0 +1,26 @@
+﻿@model IEnumerable<codefirstapproach.Models.emp>
+<table class="table table-borderd">
+    <tr>
+        <th>id</th>
+        <th>name</th>
+        <th>add</th>
+        <th>salary</th>
+        <th>phn</th>
+    </tr>
+    @foreach(var it in Model)
+            {
+<tr>
+    <td>@it.id</td>
+    <td>@it.name</td>
+    <td>@it.add</td>
+    <td>@it.salary</td>
+    <td>@it.phn</td>
+
+</tr>
+            }
+
+
+</table>
+  
+
+
